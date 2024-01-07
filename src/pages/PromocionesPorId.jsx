@@ -1,15 +1,14 @@
-import { useParams } from "react-router-dom";
 
-export const PromocionesPorId = () => {
-
-    const {idProducto} = useParams();
+export const PromocionesPorId = (props) => {
+    const { imagen, nombre, numero, descripción, precio } = props.promocion
 
     return (
-        <>
-        <h1>Producto por Id</h1>
-        <h1>Producto por Id</h1>
-        <h1>Producto por Id</h1>
-        <h3>El Id del producto es: {idProducto}</h3>
-        </>
+        <div className="promociones-id">
+            <img src={imagen} alt={nombre} />
+            <h2>{nombre}</h2>
+            <p>{numero}</p>
+            <p>{descripción}</p>
+            <p>{precio}</p>
+        </div>
     )
 }

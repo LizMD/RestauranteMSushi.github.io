@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import { MainRouter } from './router/MainRouter'
 import { ReservasForm } from './components/Navbar/ReservasForm'
 import { CardContainer } from './components/Navbar/CardContainer'
+import { Footer } from './components/Footer'
 
 
 
@@ -18,6 +19,7 @@ function App() {
     < MainRouter />
     < ReservasForm />
     < CardContainer />
+    < Footer />
     </>
   )
 }
