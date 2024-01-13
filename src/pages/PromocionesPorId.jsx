@@ -1,3 +1,5 @@
+import "./PromocionesPorId.css"
+
 
 export const PromocionesPorId = (props) => {
     const { imagen, nombre, numero, descripción, precio } = props.promocion

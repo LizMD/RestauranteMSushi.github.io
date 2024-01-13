@@ -3,9 +3,7 @@ import './App.css'
 import './components/Navbar/Navbar.css'
 import { Navbar } from './components/Navbar/Navbar'
 import { MainRouter } from './router/MainRouter'
-import { ReservasForm } from './components/Navbar/ReservasForm'
-import { CardContainer } from './components/Navbar/CardContainer'
-import { Footer } from './components/Footer'
+import { Footer } from './components/Navbar/Footer'
 
 
 
@@ -17,8 +15,6 @@ function App() {
     <>
     < Navbar />
     < MainRouter />
-    < ReservasForm />
-    < CardContainer />
     < Footer />
     </>
   )

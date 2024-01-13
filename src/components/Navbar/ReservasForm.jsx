@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { firestoreDB } from "../../firebase/config";
 import React from "react"
+import "./ReservasForm.css"
 
 export const ReservasForm = () => {
     const estadoInicialFormulario = {
