@@ -6,7 +6,7 @@
         nombre: 'Promo de 40 Piezas',
         numero: 40,
         descripción: '40 piezas de tempura',
-        precio: 15.000
+        precio: 15000
 
     },
     {
@@ -14,7 +14,7 @@
         nombre: 'Promo de 50 Piezas',
         numero: 50,
         descripción: '50 piezas mixtas',
-        precio: 20.000
+        precio: 20000
 
     },
     {
@@ -22,7 +22,7 @@
         nombre: 'Promo de 60 Piezas',
         numero: 60,
         descripción: '60 piezas mixtas',
-        precio: 25.000
+        precio: 25000
 
     },
     {
@@ -30,7 +30,7 @@
         nombre: 'Promo de 80 Piezas',
         numero: 80,
         descripción: '80 piezas mixtas',
-        precio: 35.000
+        precio: 35000
 
     }
 ]
